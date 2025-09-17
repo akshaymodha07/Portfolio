@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Modha - QA Automation Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/logo.png">
+    <link href="../css/index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="padding: 0;">
+        <div class="container">
+            <a class="navbar-brand" href="#home" style="font-family: 'Pacifico', cursive !important">
+                <img src="../images/logo.png" alt="Logo" class="navbar-logo">
+                Akshay Modha
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="fas fa-user me-1"></i>About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <i class="fas fa-cogs me-1"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">
+                            <i class="fas fa-briefcase me-1"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="fas fa-envelope me-1"></i>Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="theme-toggle ms-3" id="themeToggle">
+                            <i class="fas fa-moon" id="themeIcon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1>Hi, I'm Akshay Modha</h1>
+                        <p class="lead">QA Automation Engineer ensuring digital excellence through meticulous testing</p>
+                        <a href="#contact" class="btn-primary-custom">
+                            <i class="fas fa-paper-plane me-2"></i>Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image text-center">
+                        <img src="../images/akshay.jpg" alt="Akshay Modha" style="width: 500px; height: 600px; object-fit: cover; border-radius: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="about-text text-center" data-aos="fade-up" data-aos-delay="200">
+                        <p>I'm a passionate QA Automation Engineer with expertise in ensuring software quality through comprehensive testing methodologies. With a strong foundation in both manual and automated testing, I deliver robust, bug-free digital experiences.</p>
+                        <p>My journey in quality assurance has equipped me with a diverse skill set, allowing me to identify issues early in the development cycle and implement effective testing strategies. I believe in continuous learning and staying updated with the latest testing tools and methodologies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                        <i class="fas fa-bug text-primary mb-2" style="font-size: 2rem;"></i>
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Bugs Identified</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <i class="fas fa-calendar-alt text-primary mb-2" style="font-size: 2rem;"></i>
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <i class="fas fa-project-diagram text-primary mb-2" style="font-size: 2rem;"></i>
+                        <span class="stat-number">40+</span>
+                        <span class="stat-label">Projects Tested</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-item">
+                        <i class="fas fa-code text-primary mb-2" style="font-size: 2rem;"></i>
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Testing Tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-item">
+                        <i class="fas fa-desktop skill-icon"></i>
+                        <h4 class="skill-title">Frontend Development</h4>
+                        <p class="skill-description">Proficient in HTML, CSS, JavaScript and modern frameworks. Creating responsive and accessible user interfaces.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush skill-icon"></i>
+                        <h4 class="skill-title">UI/UX Design</h4>
+                        <p class="skill-description">Creating intuitive user interfaces with a focus on usability and user experience principles.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-item">
+                        <i class="fas fa-robot skill-icon"></i>
+                        <h4 class="skill-title">Automation Testing</h4>
+                        <p class="skill-description">Expertise in Selenium, Cypress, and other automation frameworks for efficient and reliable testing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-item">
+                        <i class="fas fa-search skill-icon"></i>
+                        <h4 class="skill-title">Manual Testing</h4>
+                        <p class="skill-description">Comprehensive manual testing including functional, regression, usability, and exploratory testing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-item">
+                        <i class="fas fa-tasks skill-icon"></i>
+                        <h4 class="skill-title">Test Planning</h4>
+                        <p class="skill-description">Creating detailed test plans, test cases, and test scenarios to ensure comprehensive test coverage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line skill-icon"></i>
+                        <h4 class="skill-title">Performance Testing</h4>
+                        <p class="skill-description">Testing application performance under various conditions to ensure optimal user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">Hair Salon Website</h4>
+                            <p class="portfolio-description">Developed and tested a responsive website for a hair salon with booking functionality and service catalog.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Selenium</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            <a href="#" class="btn-primary-custom">
+                                <i class="fas fa-external-link-alt me-1"></i>View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">E-commerce Website Testing</h4>
+                            <p class="portfolio-description">Comprehensive testing of an e-commerce platform including functionality, payment processing, and user experience.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Cypress</span>
+                                <span class="tech-tag">Test Cases</span>
+                                <span class="tech-tag">Payment Testing</span>
+                                <span class="tech-tag">Performance</span>
+                            </div>
+                            <a href="#" class="btn-primary-custom">
+                                <i class="fas fa-external-link-alt me-1"></i>View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4 class="portfolio-title">Where Is My Bus Project</h4>
+                            <p class="portfolio-description">Developed and tested a real-time bus tracking application with route optimization and arrival predictions.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">API Testing</span>
+                                <span class="tech-tag">Geolocation</span>
+                                <span class="tech-tag">Jest</span>
+                            </div>
+                            <a href="#" class="btn-primary-custom">
+                                <i class="fas fa-external-link-alt me-1"></i>View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h6>Email</h6>
+                                <p>akshaymodha@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h6>Phone</h6>
+                                <p>+91 9876543210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h6>Location</h6>
+                                <p>India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h6>Freelance</h6>
+                                <p>Available for projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary-custom w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links mb-3" data-aos="fade-up">
+                <a href="#" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+            </div>
+            <p class="mb-0" data-aos="fade-up" data-aos-delay="200">© 2024 Akshay Modha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/index.js"></script>
+   
+</body>
+</html>
